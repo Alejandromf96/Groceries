@@ -3,7 +3,7 @@ import random
 from flask import Flask, session, render_template, request, g
 
 app = Flask(__name__)
-app.secret_key = "alejandromf96_25Jose175994"
+app.secret_key = "Your_secret_key"
 app.config["SESSION_COOKIE_NAME"] = "myCOOKIE"
 
 @app.route("/", methods=["POST", "GET"])
